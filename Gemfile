@@ -62,3 +62,5 @@ group :test do
   gem "simplecov", require: false
   gem "minitest", "~> 5.22" # Minitest 6 is incompatible with Tails 7.0
 end
+
+gem "dockerfile-rails", ">= 1.7", group: :development
